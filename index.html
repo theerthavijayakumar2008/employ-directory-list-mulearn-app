@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Employee Directory</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f1f5f9;
+      margin: 0;
+      padding: 25px;
+    }
+    .container {
+      max-width: 750px;
+      margin: auto;
+      background: white;
+      padding: 25px;
+      border-radius: 15px;
+    }
+    h1 { color: #173b68; }
+    input {
+      width: 95%;
+      padding: 12px;
+      margin: 12px 0;
+      border: 1px solid #bbb;
+      border-radius: 8px;
+    }
+    .employee {
+      background: #eef4ff;
+      padding: 15px;
+      margin: 12px 0;
+      border-radius: 10px;
+    }
+    .employee h3 { margin-bottom: 8px; }
+    footer {
+      margin-top: 25px;
+      color: #555;
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Employee Directory</h1>
+    <p>Search employees by name, role or department.</p>
+
+    <input
+      type="text"
+      id="search"
+      placeholder="Search employees..."
+    >
+
+    <div id="employeeList"></div>
+
+    <footer>
+      Created by Theertha Vijayakumar<br>
+      MuID: theerthavijayakumar@mulearn
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
